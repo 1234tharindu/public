@@ -1,0 +1,70 @@
+{
+  "modules": [
+    {
+      "moduleId": 1,
+      "moduleName": "HR",
+      "groups": [
+        {
+          "groupId": 1,
+          "groupName": "Group 1",
+          "tasks": [
+            {
+              "taskId": 1,
+              "taskName": "Task 1",
+              "pageUrl": "/modules/humanresources/HRTask1"
+            },
+            {
+              "taskId": 2,
+              "taskName": "Task 2",
+              "pageUrl": "/modules/humanresources/HRTask2"
+            }
+          ]
+        },
+        {
+          "groupId": 2,
+          "groupName": "Group 2",
+          "tasks": [
+            {
+              "taskId": 3,
+              "taskName": "Task 3",
+              "pageUrl": "/modules/humanresources/HRTask3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": 2,
+      "moduleName": "Payroll",
+      "groups": [
+        {
+          "groupId": 3,
+          "groupName": "Group 3",
+          "tasks": [
+            {
+              "taskId": 4,
+              "taskName": "Task 4",
+              "pageUrl": "modules/payroll/payrollTask1"
+            }
+          ]
+        },
+        {
+          "groupId": 4,
+          "groupName": "Group 4",
+          "tasks":[
+            {
+              "taskId": 5,
+              "taskName": "Task 5",
+              "pageUrl":"modules/payroll/payrollTask2"
+            },
+            {
+              "taskId": 5,
+              "taskName": "Task 6",
+              "pageUrl":"modules/payroll/payrollTask3"
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}

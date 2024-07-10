@@ -1,0 +1,122 @@
+/* Login.css */
+.login-page {
+    background-color: rgb(130 192 204 );
+    display: flex;
+    margin: -8px;
+}
+.login-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    flex:1;
+
+    &>img {
+            width:600px;
+        }
+}
+
+.login-text {
+    color: rgb(48 106 255 );
+    font-size: 2.25rem ;
+    line-height: 2.5rem;
+    margin-left: 12px;
+    text-align: right;
+    font-weight: 700;
+    margin-right: 0.75rem
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: min-content;
+    margin-left: auto;
+    border-radius: 50px 0 0 50px; 
+    background-color: white;
+    
+    img {
+        width :350px;
+    }
+}
+
+.login-form {
+    width: 300px;
+    padding: 20px 50px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px); 
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px !important; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Added to separate left and right */
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+}
+
+.forgot-password {
+    text-align: right; /* Adjusted alignment */
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+  }
+  
+  .sign-up {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

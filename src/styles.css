@@ -1,0 +1,13 @@
+/* styles.css */
+body {
+  margin: 0;
+}
+
+.hover-content {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.MuiCardActionArea-root:hover .hover-content {
+  opacity: 1;
+}
